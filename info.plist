@@ -126,8 +126,8 @@ Test your config here: http://browserl.ist</string>
 		<string>&gt; 1%, last 2 versions, last 4 IE versions, Firefox ESR</string>
 	</dict>
 	<key>version</key>
-	<string>1.0.5</string>
+	<string>1.0.6</string>
 	<key>webaddress</key>
-	<string>https://github.com/liziqiang/alfred-caniuse.git</string>
+	<string>https://github.com/liziqiang/alfy-caniuse.git</string>
 </dict>
 </plist>

@@ -1,9 +1,9 @@
 <h1 align="center">
-  alfred-caniuse
+  alfy-caniuse
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/robjtede/alfred-caniuse/master/alfred-caniuse.png" alt="alfred-caniuse logo" height="200">
+  <img src="https://raw.githubusercontent.com/liziqiang/alfy-caniuse/master/alfy-caniuse.png" alt="alfy-caniuse logo" height="200">
 </p>
 
 > An Alfred 3 workflow for searching and quickly previewing caniuse.com support tables.
@@ -17,11 +17,11 @@ The recommended way to install this workflow is using npm to allow easy updating
 
 ```shell
 $ npm install -g alfred-updater
-$ npm install -g alfred-caniuse
+$ npm install -g alfy-caniuse
 ```
 
 **Without easy updates**  
-If you'd prefer to not use npm and forego the easy updates you can go download the latest workflow from the [releases page](https://github.com/robjtede/alfred-caniuse/releases).
+If you'd prefer to not use npm and forego the easy updates you can go download the latest workflow from the [releases page](https://github.com/liziqiang/alfy-caniuse/releases).
 
 ## Usage
 

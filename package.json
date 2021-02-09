@@ -1,6 +1,6 @@
 {
   "name": "alfy-caniuse",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "caniuse.com search and quick reference",
   "module": "./src/index.js",
   "type": "module",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liziqiang/alfred-caniuse.git"
+    "url": "https://github.com/liziqiang/alfy-caniuse.git"
   },
   "engines": {
     "node": ">=8"
