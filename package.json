@@ -1,9 +1,9 @@
 {
   "name": "alfy-caniuse",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "caniuse.com search and quick reference",
-  "main": "./dist/bundle.js",
   "module": "./src/index.js",
+  "type": "module",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch",
@@ -33,7 +33,7 @@
   "author": "robjtede",
   "license": "ISC",
   "dependencies": {
-    "@robjtede/alfy": "^0.8.0",
+    "alfy": "^0.10.0",
     "browserslist": "^4.16.3",
     "fuse.js": "^3.6.1"
   },

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>de.robjte.caniuse</string>
+	<string>com.liziqiang.caniuse</string>
 	<key>connections</key>
 	<dict>
 		<key>AF3322F5-CEBF-41C6-867C-B0DC08D8BDFA</key>
@@ -21,11 +21,11 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>robjtede</string>
+	<string>Ziqiang Li</string>
 	<key>description</key>
 	<string>caniuse.com search and quick reference</string>
 	<key>disabled</key>
-	<true/>
+	<false/>
 	<key>name</key>
 	<string>Can I Use</string>
 	<key>objects</key>
@@ -58,7 +58,7 @@
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>/usr/local/bin/node ./dist/bundle.js "$1"
+				<string>/usr/local/bin/node ./src/index.js "$1"
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -126,8 +126,8 @@ Test your config here: http://browserl.ist</string>
 		<string>&gt; 1%, last 2 versions, last 4 IE versions, Firefox ESR</string>
 	</dict>
 	<key>version</key>
-	<string>0.6.0</string>
+	<string>1.0.3</string>
 	<key>webaddress</key>
-	<string>https://github.com/robjtede/alfred-caniuse#readme</string>
+	<string>https://github.com/liziqiang/alfred-caniuse</string>
 </dict>
 </plist>

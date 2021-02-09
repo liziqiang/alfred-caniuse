@@ -1,19 +1,19 @@
 'use strict'
 
-import * as alfy from '@robjtede/alfy'
+import alfy from 'alfy'
 import browserslist from 'browserslist'
 
-import { SupportTable } from './SupportTable'
-import { filterFeatures } from './features'
-import { exactMatch } from './utils'
+import { SupportTable } from './SupportTable.js'
+import { filterFeatures } from './features.js'
+import { exactMatch } from './utils.js'
 
 const { browsersListConfig } = process.env
 
 alfy
   .fetch('https://raw.githubusercontent.com/Fyrd/caniuse/master/data.json', {
-    maxAge: 3600 * 12
+    maxAge: 3600 * 12,
   })
-  .then(res => {
+  .then((res) => {
     // console.log(JSON.stringify(res))
     const match = exactMatch(alfy.input, res.data)
 
@@ -21,7 +21,7 @@ alfy
       const supportTable = new SupportTable({
         featureId: match,
         db: res,
-        browsersList: browserslist(browsersListConfig)
+        browsersList: browserslist(browsersListConfig),
       })
 
       return alfy.output(supportTable.alfredItems)
