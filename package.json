@@ -5,8 +5,6 @@
   "module": "./src/index.js",
   "type": "module",
   "scripts": {
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup",
@@ -41,8 +39,6 @@
     "eclint": "^2.8.1",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12"
+    "prettier": "^2.2.1"
   }
 }
