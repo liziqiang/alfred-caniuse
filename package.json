@@ -1,6 +1,6 @@
 {
   "name": "alfy-caniuse",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "caniuse.com search and quick reference",
   "module": "./src/index.js",
   "type": "module",
