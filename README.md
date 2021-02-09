@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/liziqiang/alfy-caniuse/master/alfy-caniuse.png" alt="alfy-caniuse logo" height="200">
 </p>
 
-> An Alfred 3 workflow for searching and quickly previewing caniuse.com support tables.
+> An Alfred 4 workflow for searching and quickly previewing caniuse.com support tables.
 >
 > Configurable "safety" checkmarks are shown next to browsers with good support of a feature.
 
